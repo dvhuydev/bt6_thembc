@@ -1,14 +1,12 @@
+// Sesson 6
 
-
-
-function checkPrime(n) {
-    let primeChecking = Math.sqrt(n);
-    const i = 2
+function checkPrime(check) {
+    let primeChecking = Math.sqrt(check);
+    let i = 2
     for ( i ; i <= primeChecking; i++ ) {
         if (n % i === 0) {
             return;
         }
-
     }
     return 1;
 }
@@ -24,8 +22,9 @@ function checkPrimenumber() {
         alert(`Number ${primeNumber} is not a Prime Number. Please input another Number`);
     }
 
-    const i = 2
+    let i = 2
     for ( i ; i <= primeNumber; i++) {
+
         if (checkPrime(i) === 1) {
             // Push vào mảng nếu chia ra dư 1
             // Đúng điều kiện của số nguyên tố
