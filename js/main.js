@@ -1,10 +1,10 @@
 // Let
 
-function checkPrime(n) {
-    let primeChecking = Math.sqrt(n);
+function checkPrime(prime) {
+    let primeChecking = Math.sqrt(prime);
     let i = 2
     for ( i ; i <= primeChecking; i++ ) {
-        if (n % i === 0) {
+        if (prime % i === 0) {
             return;
         }
 
