@@ -1,16 +1,17 @@
-// Sesson 6
+// Let
 
-function checkPrimenumber(check) {
-    let primeChecking = Math.sqrt(check);
+function checkPrime(prime) {
+    let primeChecking = Math.sqrt(prime);
     let i = 2
     for ( i ; i <= primeChecking; i++ ) {
         if (n % i === 0) {
             return;
         }
+
     }
     return 1;
 }
-// 
+
 //Hàm vòng lặp
 function checkPrimenumber() {
     const primeNumber = Number(document.getElementById("primeNumber").value);
@@ -24,7 +25,6 @@ function checkPrimenumber() {
 
     let i = 2
     for ( i ; i <= primeNumber; i++) {
-
         if (checkPrime(i) === 1) {
             // Push vào mảng nếu chia ra dư 1
             // Đúng điều kiện của số nguyên tố
