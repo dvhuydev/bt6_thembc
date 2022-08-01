@@ -1,7 +1,7 @@
 // Let
 
-function checkPrime(prime) {
-    let primeChecking = Math.sqrt(prime);
+function checkPrime(n) {
+    let primeChecking = Math.sqrt(n);
     let i = 2
     for ( i ; i <= primeChecking; i++ ) {
         if (n % i === 0) {
@@ -11,6 +11,7 @@ function checkPrime(prime) {
     }
     return 1;
 }
+checkPrime();
 
 //Hàm vòng lặp
 function checkPrimenumber() {
