@@ -1,6 +1,6 @@
 // Sesson 6
 
-function checkPrime(check) {
+function checkPrimenumber(check) {
     let primeChecking = Math.sqrt(check);
     let i = 2
     for ( i ; i <= primeChecking; i++ ) {
