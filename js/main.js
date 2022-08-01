@@ -10,7 +10,7 @@ function checkPrimenumber(check) {
     }
     return 1;
 }
-
+// 
 //Hàm vòng lặp
 function checkPrimenumber() {
     const primeNumber = Number(document.getElementById("primeNumber").value);
